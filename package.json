@@ -1,0 +1,23 @@
+{
+  "name": "fmanager",
+  "displayName": "FManager",
+  "version": "0.0.1",
+  "description": "A file manager for a modern age",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Eric Hooks",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-electron": "^3.1.0"
+  },
+  "cordova": {
+    "platforms": [
+      "electron"
+    ]
+  }
+}
