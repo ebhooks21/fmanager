@@ -1,23 +1,19 @@
 {
   "name": "fmanager",
-  "displayName": "FManager",
   "version": "0.0.1",
-  "description": "A file manager for a modern age",
-  "main": "index.js",
+  "description": "A modern file manager for a modern age.",
+  "main": "FManager.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "ecosystem:cordova"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebhooks21/fmanager.git"
+  },
   "author": "Eric Hooks",
   "license": "MIT",
-  "devDependencies": {
-    "cordova-electron": "^3.1.0"
+  "bugs": {
+    "url": "https://github.com/ebhooks21/fmanager/issues"
   },
-  "cordova": {
-    "platforms": [
-      "electron"
-    ]
-  }
+  "homepage": "https://github.com/ebhooks21/fmanager#readme"
 }
